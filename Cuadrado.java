@@ -10,3 +10,18 @@ public void CalcularArea(){
 	System.out.println("El area es:"+Area);
 }
 }
+
+public class Rectangulo {
+int b;
+int h;
+int area;
+public Rectangulo(int base, int altura){
+	this.base=10;
+	this.altura=5;
+}
+public void CalcularArea(){
+	this.Area=(b*h);
+        System.out.println("El area es:"+area);
+}
+}
+	
